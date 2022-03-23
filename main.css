@@ -57,6 +57,7 @@
     transform: translate(-50%, -50%);
     min-height: 100vh;
     min-width: 100vw;
+    filter:opacity(80%);
   }
   .text-content {
     background: rgba(0, 0, 0, 0);
@@ -116,19 +117,6 @@
     animation-name: fade;
     animation-delay: 0s;
     animation-duration: 500ms;
-  }
-  .video {
- position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index:-1;
-  /*to edit the opacity effect change the percentage below */
-  filter:opacity(60%);
-  transform: translateX(10%) translateY(40%);}
   }
   @media(hover: hover) {
     .hover {
