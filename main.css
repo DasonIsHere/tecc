@@ -95,12 +95,12 @@
     top: 500px;
     z-index: 2;
   }
-  .707 {
+  .outer-1 {
     position: relative;
     width: 100px;
     height: 100px;
 }
-  .707 > img {
+  .outer-1 > img {
     position: absolute;
     width: 100%;
     height: 100%;
