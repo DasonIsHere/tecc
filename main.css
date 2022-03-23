@@ -99,8 +99,7 @@
     position: relative;
     width: 100px;
     height: 100px;
-  }
-
+}
   .outer-1 > img {
     position: absolute;
     width: 100%;
