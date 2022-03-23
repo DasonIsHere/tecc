@@ -90,6 +90,9 @@
     color: #98F1FC;
     display: block;
     text-align: left;
+    position: absolute;
+    left: 10px;
+    top: 500px;
   }
   #overlay-toggle:checked ~ .overlay {
     animation-fill-mode: forwards;
