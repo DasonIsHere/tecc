@@ -95,6 +95,20 @@
     top: 500px;
     z-index: 2;
   }
+  .outer-1 {
+    position: relative;
+    width: 100px;
+    height: 100px;
+  }
+
+  .outer-1 > img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    left: 10px;
+    top: 500px;
+}
   #overlay-toggle:checked ~ .overlay {
     animation-fill-mode: forwards;
     animation-name: fade, hide;
